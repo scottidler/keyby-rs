@@ -8,3 +8,7 @@ description = "Derive macro for keyed-map YAML/JSON deserialization"
 [dependencies]
 keyby-derive = { path = "../keyby-derive" }
 serde = { workspace = true }
+
+[dev-dependencies]
+serde_json = "1.0.149"
+serde_yaml = "0.9.34"
