@@ -1,0 +1,10 @@
+[package]
+name = "keyby"
+version.workspace = true
+edition = "2024"
+authors = ["Scott A. Idler <scott.a.idler@gmail.com>"]
+description = "Derive macro for keyed-map YAML/JSON deserialization"
+
+[dependencies]
+keyby-derive = { path = "../keyby-derive" }
+serde = { workspace = true }
